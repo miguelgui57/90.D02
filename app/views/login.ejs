@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="Stylesheet" href="./css/styleLogin.css">
+</head>
+<body>
+    <section class="block-info">
+        <div class="container-block">
+            <img src="../img/ImgPage.png" class="top-header-logo" alt="logotipo AeroStorage" width="150px" height="50px">
+
+            <form action="/login" method="post"></form>
+
+                <h1 class="Log font">Login</h1>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" required="">
+                    <label for="name" class="form__label">Email</label>
+                </div>
+                <div class="form__group field">
+                    <input type="password" class="form__field" placeholder="Name" required="">
+                    <label for="name" class="form__label">Senha</label>
+                </div>
+                <button class="Entrar"> Entrar
+                </button>
+
+                <p class="cadastro">Não tem uma conta? <a class="register lore" href="cadastro" target="_blank"><span>Cadastrar</span></a> </p>
+        </div>
+    </section>
+    <p id="mensagem"></p>
+
+    <script src="../login.js"></script>
+</body>
+</html> 
